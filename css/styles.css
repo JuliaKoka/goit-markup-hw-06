@@ -280,7 +280,8 @@ img {
 /*===========================team=======================================*/
 
 .team {
-  max-width: 1440px;
+  /* max-width: 1440px; */
+  max-width: 320px;
   margin: 0 auto;
   background: var(--CLOUD, #f4f4fd);
   /* padding-top: 120px;
@@ -340,7 +341,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  /*margin-bottom: 32px;*/
 }
 
 .team-sublist-soc {
@@ -865,6 +865,10 @@ img {
     width: calc((100% - 24px) / 2);
   }
 
+  .team {
+    max-width: 768px;
+  }
+
   .team-list {
     display: flex;
     flex-direction: row;
@@ -941,6 +945,7 @@ img {
   }
 
   .team {
+    max-width: 1440px;
     padding-top: 120px;
     padding-bottom: 120px;
   }
