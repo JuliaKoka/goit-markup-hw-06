@@ -757,9 +757,12 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  padding: 72px 24px 24px 24px;
-  min-height: 584px;
+  /* width: 408px; */
+  width: 288px;
+  /* padding: 72px 24px 24px 24px; */
+  padding: 72px 16px 24px 16px;
+  /* min-height: 584px; */
+  min-height: 623px;
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -801,8 +804,10 @@ img {
 }
 
 .modal-title {
-  width: 360px;
-  height: 24px;
+  /* width: 360px; */
+  width: 256px;
+  /* height: 24px; */
+  height: 48px;
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -889,6 +894,7 @@ img {
 }
 
 .checkbox-field {
+  display: flex;
   margin-bottom: 24px;
 }
 
@@ -898,7 +904,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
   /* display: flex; */
-  align-items: center;
+  text-align: left;
 }
 
 .check-text a {
@@ -932,11 +938,14 @@ img {
 .modal-btn {
   border-radius: 4px;
   padding: 16px 32px;
+  margin-top: 24px;
   min-width: 169px;
   height: 56px;
   background-color: #4d5ae5;
   position: absolute;
-  right: 120px;
+  /* right: 120px;
+  bottom: 24px; */
+  right: 59px;
   bottom: 24px;
   font-weight: 500;
   font-size: 16px;
@@ -959,7 +968,7 @@ img {
   }
 
   .header-logo {
-    padding: 24px;
+    padding: 24px 0;
     margin-right: 120px;
   }
 
@@ -1146,6 +1155,22 @@ img {
   .footer-input {
     width: 264px;
   }
+
+  .modal-window {
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+    min-height: 584px;
+  }
+
+  .modal-title {
+    width: 360px;
+    height: 24px;
+  }
+
+  .modal-btn {
+    right: 119px;
+    bottom: 24px;
+  }
 }
 
 /* =========================================desktop====================================== */
@@ -1157,9 +1182,11 @@ img {
     padding-right: 15px;
   }
 
-  /* .header-container {
+  .header-container {
     width: 1440px;
-  } */
+    padding-left: 156px;
+    padding-right: 156px;
+  }
 
   .header-logo {
     margin-right: 76px;
@@ -1179,7 +1206,7 @@ img {
   }
 
   .hero {
-    min-width: 1440px;
+    width: 1440px;
     padding: 188px 0;
   }
 
@@ -1195,7 +1222,7 @@ img {
   }
 
   .features-container {
-    min-width: 1440px;
+    width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
   }
@@ -1239,7 +1266,7 @@ img {
   }
 
   .portfolio-container {
-    min-width: 1440px;
+    width: 1440px;
     padding-left: 156px;
     padding-right: 156px;
   }
@@ -1255,7 +1282,7 @@ img {
   }
 
   .team-container {
-    min-width: 1440px;
+    width: 1440px;
     padding: 120px 156px;
   }
 
@@ -1269,7 +1296,7 @@ img {
   }
 
   .footer {
-    min-width: 1440px;
+    width: 1440px;
     padding: 100px 0;
   }
 
@@ -1308,5 +1335,9 @@ img {
 
   .footer-input {
     width: 264px;
+  }
+
+  .modal-window {
+    width: 408px;
   }
 }
